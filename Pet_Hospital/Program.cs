@@ -1,4 +1,5 @@
-
+using DataManger;
+using Microsoft.EntityFrameworkCore;
 namespace Pet_Hospital
 {
     public class Program
@@ -10,6 +11,9 @@ namespace Pet_Hospital
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
