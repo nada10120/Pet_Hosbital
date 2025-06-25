@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> da2a9d48ecffaf47b2a082bfa1d31d65dd353904
     public class Product
     {
         public int ProductId { get; set; } // Primary Key

@@ -10,7 +10,7 @@ using Repositories.IRepository;
 
 namespace Repositories
 {
-    internal class Repository<T> : IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> where T : class
     {
         private readonly DbSet<T> _dbSet;
         private readonly ApplicationDbContext _context;
