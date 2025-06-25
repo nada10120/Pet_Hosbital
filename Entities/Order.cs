@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    internal class Order
+
+    public class Order
     {
+        public int OrderId { get; set; } // Primary Key
+        public int UserId { get; set; } // Customer who made the order
+        public DateTime OrderDate { get; set; }
+        public decimal TotalPrice { get; set; }
+        public string Status { get; set; } // (Pending, Completed, Cancelled)
+
+        // Navigation Property
+        public User User { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
     }
+
+
 }

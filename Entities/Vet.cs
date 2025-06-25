@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    internal class Vet
+
+    public class Vet
     {
+        public int VetId { get; set; } // Primary Key
+        public int UserId { get; set; } // Vet user account
+        public string Speciality { get; set; } // Veterinarian Specialization
+
+        // Navigation Property
+        public List<Appointment> Appointments { get; set; }
     }
 }
