@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManger", "DataManger\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{4115420E-F270-4734-9620-5C3A99E882F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{487EA0BB-C37A-4936-A3ED-38D432A6A783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,15 @@ Global
 		{4115420E-F270-4734-9620-5C3A99E882F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4115420E-F270-4734-9620-5C3A99E882F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4115420E-F270-4734-9620-5C3A99E882F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487EA0BB-C37A-4936-A3ED-38D432A6A783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487EA0BB-C37A-4936-A3ED-38D432A6A783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487EA0BB-C37A-4936-A3ED-38D432A6A783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487EA0BB-C37A-4936-A3ED-38D432A6A783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5D5CC47-69DC-4BCB-9075-A8B1DEE09DAD}
 	EndGlobalSection
 EndGlobal
