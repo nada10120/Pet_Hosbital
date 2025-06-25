@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.IRepository
 {
-    interface IRepository<T> where T : class 
+    public interface IRepository<T> where T : class 
     {
         Task<bool> CreateAsync(T entity);
 

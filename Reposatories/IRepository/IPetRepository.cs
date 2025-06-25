@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Entities
+using Entities;
+namespace Repositories.IRepository
 {
-    public class Comment
+    public interface IPetRepository : IRepository<Pet>
     {
     }
 }

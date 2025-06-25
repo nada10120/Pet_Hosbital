@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataManger;
+using Entities;
 
-namespace Entities
+namespace Repositories.IRepository
 {
-    public class Comment
+    internal interface IProductRepository : IRepository<Product>
     {
     }
 }
