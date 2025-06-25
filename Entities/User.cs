@@ -7,10 +7,7 @@ using System.Xml.Linq;
 
 namespace Entities
 {
-<<<<<<< HEAD
 
-=======
->>>>>>> da2a9d48ecffaf47b2a082bfa1d31d65dd353904
     public class User
     {
         public int UserId { get; set; } // Primary Key
